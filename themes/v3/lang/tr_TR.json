@@ -1,0 +1,10 @@
+{
+  "string": [
+    {
+      "hello": "Merhaba",
+      "dberr" : "Veritabanı hatası",
+      "error" : "Hata",
+      "profp" : "Profil Sayfası"
+    }
+  ]
+}
