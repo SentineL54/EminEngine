@@ -15,11 +15,12 @@ $istekler = explode("/", $istek);
 switch ($istekler[0]){
     case "":
         include "anasayfa.php";
-        die;
         break;
     case "profil":
         include "profil.php";
-        die;
+        break;
+    default:
+        include "anasayfa.php";
         break;
 }
-include "anasayfa.php";
+
