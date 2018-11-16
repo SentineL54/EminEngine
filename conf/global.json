@@ -1,4 +1,9 @@
 {
+  "engine" : [
+    {
+      "version" : 0
+    }
+  ],
   "database": [
     {
       "ip": "localhost",
