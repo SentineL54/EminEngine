@@ -1,8 +1,9 @@
 {
-  "str": [
+  "string": [
     {
       "hello": "Merhaba",
-      "dberr" : "Veritabanı hatası"
+      "dberr" : "Veritabanı hatası",
+      "error" : "Hata"
     }
   ]
 }

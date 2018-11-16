@@ -17,5 +17,10 @@ public function __construct()
     $config = new config();
     $dongu = $config->get("global", "database");
     $this->connection= mysqli_connect($dongu->ip, $dongu->user, $dongu->pass, $dongu->db);
+    if($this->connection === false){
+        $engine = new eminEngine();
+        $lang = new lang();
+        $engine->errorReport("DBERR", $lang->get("tr_TR", "dberr"));
+    }
 }
 }

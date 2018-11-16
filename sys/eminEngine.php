@@ -11,6 +11,14 @@ namespace eminEngine;
 
 class eminEngine
 {
+    private $lang;
+    public function __construct()
+    {
+        $this->lang = new lang();
+    }
 
+    function errorReport($status, $message){
+    echo $this->lang->get("tr_TR", "error").": $message";
+}
 
 }

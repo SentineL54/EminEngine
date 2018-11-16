@@ -12,5 +12,6 @@ include "sys/load.php";
 use eminEngine\eminEngine;
 
 $db = new \eminEngine\database();
-
+$lang = new \eminEngine\lang();
 $cache = new \eminEngine\cache();
+
