@@ -1,8 +1,8 @@
 {
-  "database": [
+  "modules": [
     {
-      "ip": "localhost",
-      "user": "root",
+      "cache": "/modules/cache.php",
+      "database": "/modules/database.php",
       "pass": "",
       "db": "eminEngine"
     }
