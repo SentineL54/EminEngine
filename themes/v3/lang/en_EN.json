@@ -4,7 +4,8 @@
       "hello": "Hi!",
       "dberr" : "Database Error",
       "error" : "Error",
-      "profp" : "Profile Page"
+      "profp" : "Profile Page",
+      "welcome" : "Welcome!"
     }
   ]
 }

@@ -7,5 +7,6 @@
  */
 
 echo themename;
+$lang = new \eminEngine\themelang();
 ?>
-<h2>Hoş Geldin!</h2>
+<h2><?php echo $lang->get("welcome") ?></h2>

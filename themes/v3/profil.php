@@ -8,7 +8,7 @@
 $lang = new \eminEngine\themelang();
 
 
-echo $lang->get(def_lang, "profp")
+echo $lang->get( "profp");
 ?>
 
 

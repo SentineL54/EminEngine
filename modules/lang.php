@@ -11,7 +11,7 @@ namespace eminEngine;
 
 class lang
 {
-    function get($lang, $id){
+    function get($id, $lang = def_lang){
         $json = json_decode(file_get_contents("lang/".$lang.".json"));
         return $json->{"string"}[0]->{$id};
     }

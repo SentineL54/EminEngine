@@ -8,8 +8,10 @@
 
 include "modules/config.php";
 $config = new \eminEngine\config();
-define("def_lang", $config->get("global", "engine")->lang);
-define("theme", $config->get("theme", "theme")->sysname);
+if(!isset($_GET['lang'])) define("def_lang", $config->get("global", "engine")->lang);
+else
+    define("def_lang", $_GET['lang']);
+ define("theme", $config->get("theme", "theme")->sysname);
 
 include "modules/themelang.php";
 include "modules/theme.php";

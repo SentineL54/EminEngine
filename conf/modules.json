@@ -10,6 +10,7 @@
   "cache" : [
     {
       "type" : "memcached",
+      "cachedir" : "",
       "ip" : "localhost",
       "user" : "",
       "pass" : "",

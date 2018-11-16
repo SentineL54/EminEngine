@@ -21,7 +21,7 @@ public function __construct()
     if($this->connection === false){
         $engine = new eminEngine();
         $lang = new lang();
-        $engine->errorReport("DBERR", $lang->get(def_lang, "dberr"));
+        $engine->errorReport("DBERR", $lang->get( "dberr"));
     }
 }
 }
