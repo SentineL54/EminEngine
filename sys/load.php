@@ -6,9 +6,12 @@
  * Time: 13:31
  */
 error_reporting(0);
+include "modules/config.php";
+$config = new \eminEngine\config();
+define("def_lang", $config->get("global", "engine")->lang);
+
 include "modules/cache.php";
 include "modules/database.php";
-include "modules/config.php";
 include "modules/lang.php";
 include "eminEngine.php";
 

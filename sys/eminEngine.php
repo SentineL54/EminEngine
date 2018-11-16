@@ -18,7 +18,7 @@ class eminEngine
     }
 
     function errorReport($status, $message){
-    echo $this->lang->get("tr_TR", "error").": $message";
+    echo $this->lang->get(def_lang, "error").": $message";
 }
 
 }

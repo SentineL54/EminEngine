@@ -3,7 +3,7 @@
     {
       "hello": "Hi!",
       "dberr" : "Database Error",
-      "error" : "hata"
+      "error" : "Error"
     }
   ]
 }
