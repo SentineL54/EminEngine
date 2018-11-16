@@ -11,5 +11,11 @@ namespace eminEngine;
 
 class database
 {
-
+public $connection;
+public function __construct()
+{
+    $config = new config();
+    $dongu = $config->get("global", "database");
+    $this->connection= mysqli_connect($dongu->ip, $dongu->user, $dongu->pass, $dongu->db);
+}
 }

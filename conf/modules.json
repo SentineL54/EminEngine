@@ -5,5 +5,16 @@
       "database": "/modules/database.php",
       "db": "eminEngine"
     }
+  ],
+
+  "cache" : [
+    {
+      "type" : "memcached",
+      "ip" : "localhost",
+      "user" : "",
+      "pass" : "",
+      "db" : "",
+      "table" : ""
+    }
   ]
 }
