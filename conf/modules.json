@@ -9,9 +9,9 @@
 
   "cache" : [
     {
-      "type" : "memcached",
+      "type" : "file",
       "cachedir" : "",
-      "ip" : "localhost",
+      "ip" : "127.0.0.1",
       "user" : "",
       "pass" : "",
       "db" : "",
