@@ -5,6 +5,14 @@
       <webServer id="3ee8e428-1a73-49b1-8d2d-de4148f8ea50" name="yerel" url="http://localhost">
         <fileTransfer port="0" mountedRoot="C:\xampp\htdocs" accessType="MOUNT" />
       </webServer>
+      <webServer id="e1627d14-75ed-4f5c-8c57-a5a3f167355f" name="opi" url="http://192.168.0.186">
+        <fileTransfer host="192.168.0.186" port="22" rootFolder="/var/www/html/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
