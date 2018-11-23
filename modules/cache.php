@@ -94,7 +94,7 @@ class cache
                 case "mysql":
                     $db = new database("cache");
                     $conn = $db->connection;
-                    $get = $conn->prepare("");
+                    $get = $conn->prepare("SELECT * FROM cache");
                     break;
             }
         }else{
