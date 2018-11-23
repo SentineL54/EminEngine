@@ -93,7 +93,8 @@ class cache
                     break;
                 case "mysql":
                     $db = new database("cache");
-
+                    $conn = $db->connection;
+                    $get = $conn->prepare("");
                     break;
             }
         }else{
