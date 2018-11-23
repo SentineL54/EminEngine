@@ -1,7 +1,7 @@
 {
   "engine" : [
     {
-      "version" : 0,
+      "version" : "0.0.0.1",
       "lang" : "tr_TR"
     }
   ],
@@ -15,6 +15,12 @@
       }],
       "userdb" : [{
         "ip": "localhost",
+        "user": "eminEngine",
+        "pass": "eminengine",
+        "db": "eminEngine"
+      }],
+      "cache" : [{
+        "ip" : "localhost",
         "user": "eminEngine",
         "pass": "eminengine",
         "db": "eminEngine"

@@ -1,0 +1,13 @@
+{
+  "string": [
+    {
+      "title" : "Animex Club",
+      "hello": "Merhaba",
+      "dberr" : "Veritabanı hatası",
+      "error" : "Hata",
+      "profp" : "Profil Sayfası",
+      "welcome" : "Hoş Geldin!",
+      "movies" : "Filmler"
+    }
+  ]
+}

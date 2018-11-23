@@ -92,6 +92,7 @@ class cache
                     if (file_exists("cache/$cat/$id")) return true; else return false;
                     break;
                 case "mysql":
+                    $db = new database("cache");
 
                     break;
             }

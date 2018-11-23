@@ -1,0 +1,13 @@
+{
+  "string": [
+    {
+      "title" : "Animex Club",
+      "hello": "Hi!",
+      "dberr" : "Database Error",
+      "error" : "Error",
+      "profp" : "Profile Page",
+      "welcome" : "Welcome!",
+      "movies" : "Movies"
+    }
+  ]
+}
