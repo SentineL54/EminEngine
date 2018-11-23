@@ -9,6 +9,7 @@
 
   "cache" : [
     {
+      "enabled" : "true",
       "type" : "file",
       "cachedir" : "",
       "ip" : "127.0.0.1",

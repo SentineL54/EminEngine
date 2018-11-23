@@ -11,8 +11,8 @@ namespace eminEngine;
 
 class themelang
 {
-    function get($id, $lang = def_lang){
+    function get($lang = def_lang){
         $json = json_decode(file_get_contents("themes/".theme."/lang/".$lang.".json"));
-        return $json->{"string"}[0]->{$id};
+        return $json->{"string"}[0];
     }
 }

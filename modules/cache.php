@@ -11,6 +11,7 @@ namespace eminEngine;
 
 class cache
 {
+    private $enabled;
     private $cacheType;
     private $cacheHost;
     private $user;
@@ -27,6 +28,7 @@ class cache
         $this->pass = $config->pass;
         $this->db = $config->db;
         $this->table = $config->table;
+        $this->enabled = $config->enabled;
         if(isset($_GET["flushcache"])) $this->clear();
     }
     function clear(){
@@ -79,18 +81,22 @@ class cache
 
     }
     function cacheStatus($id, $cat = "global"){
-        switch ($this->cacheType){
-            case "memcached":
-                $mem  = new \Memcached();
-                $mem->addServer('127.0.0.1',11211);
+        if($this->enabled == "true") {
+            switch ($this->cacheType) {
+                case "memcached":
+                    $mem = new \Memcached();
+                    $mem->addServer('127.0.0.1', 11211);
 
-                break;
-            case "file":
-                if(file_exists("cache/$cat/$id")) return true; else return false;
-                break;
-            case "mysql":
+                    break;
+                case "file":
+                    if (file_exists("cache/$cat/$id")) return true; else return false;
+                    break;
+                case "mysql":
 
-                break;
+                    break;
+            }
+        }else{
+            return false;
         }
     }
     function delCache($id, $cat = "global"){
