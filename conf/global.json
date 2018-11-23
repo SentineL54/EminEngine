@@ -7,10 +7,18 @@
   ],
   "database": [
     {
-      "ip": "localhost",
-      "user": "root",
-      "pass": "",
-      "db": "eminEngine"
+      "default" : [{
+        "ip": "localhost",
+        "user": "eminEngine",
+        "pass": "eminengine",
+        "db": "eminEngine"
+      }],
+      "userdb" : [{
+        "ip": "localhost",
+        "user": "eminEngine",
+        "pass": "eminengine",
+        "db": "eminEngine"
+      }]
     }
   ]
 }

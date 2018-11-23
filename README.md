@@ -26,6 +26,7 @@ Cache sistemi global ve kullanıcıya-duruma özel önbellek oluşturmanızı sa
 Veritabanı
 --------
 Veritabanı bilgisini ``conf/global.json`` dosyasından düzenleyerek sistemin çalışacağı veritabanını ayarlayabilirsiniz.
+Çoklu veritabanı desteği bulunmaktadır. Böylece daha güvenli sistemleri kolaylıkla yazabilirsiniz.
 
 Gömülü dil çoklu desteği
 -----
