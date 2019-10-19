@@ -3,5 +3,6 @@
   "description": "EminEngine website core framework",
   "require": {
     "php": "^7.2"
-  }
+  },
+  "license": "Apache-2.0"
 }
