@@ -1,0 +1,11 @@
+{
+  "name": "ahmeteminkocal/EminEngine",
+  "description": "Website core framework",
+  "require": {
+    "php": "^7.2",
+    "ext-apcu": "*",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "version": "V1.0.0"
+}
