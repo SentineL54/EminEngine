@@ -1,5 +1,5 @@
 {
-  "name": "ahmeteminkocal/EminEngine",
+  "name": "ahmeteminkocal/eminengine",
   "description": "EminEngine website core framework",
   "require": {
     "php": "^7.2"
